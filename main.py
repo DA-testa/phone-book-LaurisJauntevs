@@ -47,7 +47,7 @@ if __name__ == '__main__':
                 hash_table.add(query[1], query[2])
             elif query[0] == 'find':
                 result.append(hash_table.find(query[1]))
-            elif query[0] =='delete':
+            elif query[0] =='del':
                 hash_table.delete(query[1])
 
         for rez in result:
